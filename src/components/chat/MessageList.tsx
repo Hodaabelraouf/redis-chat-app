@@ -70,7 +70,7 @@ const MessageList = () => {
                 {message.senderId === selectedUser?.id && (
                   <Avatar className="flex justify-center items-center">
                     <AvatarImage
-                      src={selectedUser?.image}
+                      src={selectedUser?.picture}
                       alt="User Image"
                       className="border-2 border-white rounded-full"
                     />
